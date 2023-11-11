@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction Form</title>
+    <br></br>
+    <title>Enter 1 for Yes and 0 for No</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202001/MIT-Diagnostic-Performance_0.jpg?itok=3PhpCCep'); /* Replace with your image URL */
+            background-size: cover;
+            align-content: center;
+            color: rgb(4, 4, 4);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.7); /* Translucent background */
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        a {
+            color: #4CAF50; /* Green */
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #45a049;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Disease Prediction</h1>
+    <form action="/" method="post">
+        <!-- Assume you have 5 symptoms for simplicity; add more as needed -->
+        <label for='symptom1'>Symptom 1:</label>
+        <input type='text' id='symptom1' name='symptom1'><br><br>
+        <label for='symptom2'>Symptom 2:</label>
+        <input type='text' id='symptom2' name='symptom2'><br><br>
+        <label for='symptom3'>Symptom 3:</label>
+        <input type='text' id='symptom3' name='symptom3'><br><br>
+        <label for='symptom4'>Symptom 4:</label>
+        <input type='text' id='symptom4' name='symptom4'><br><br>
+        <label for='symptom5'>Symptom 5:</label>
+        <input type='text' id='symptom5' name='symptom5'><br><br>
+        <label for='symptom6'>Symptom 6:</label>
+        <input type='text' id='symptom6' name='symptom6'><br><br>
+        <label for='symptom7'>Symptom 7:</label>
+        <input type='text' id='symptom7' name='symptom7'><br><br>
+        <label for='symptom8'>Symptom 8:</label>
+        <input type='text' id='symptom8' name='symptom8'><br><br>
+        <label for='symptom9'>Symptom 9:</label>
+        <input type='text' id='symptom9' name='symptom9'><br><br>
+        <label for='symptom10'>Symptom 10:</label>
+        <input type='text' id='symptom10' name='symptom10'><br><br>
+        <label for='symptom11'>Symptom 11:</label>
+        <input type='text' id='symptom11' name='symptom11'><br><br>
+        <label for='symptom12'>Symptom 12:</label>
+        <input type='text' id='symptom12' name='symptom12'><br><br>
+        <label for='symptom13'>Symptom 13:</label>
+        <input type='text' id='symptom13' name='symptom13'><br><br>
+        <label for='symptom14'>Symptom 14:</label>
+        <input type='text' id='symptom14' name='symptom14'><br><br>
+        <label for='symptom15'>Symptom 15:</label>
+        <input type='text' id='symptom15' name='symptom15'><br><br>
+        <label for='symptom16'>Symptom 16:</label>
+        <input type='text' id='symptom16' name='symptom16'><br><br>
+        <label for='symptom17'>Symptom 17:</label>
+        <input type='text' id='symptom17' name='symptom17'><br><br>
+        <label for='symptom18'>Symptom 18:</label>
+        <input type='text' id='symptom18' name='symptom18'><br><br>
+        <label for='symptom19'>Symptom 19:</label>
+        <input type='text' id='symptom19' name='symptom19'><br><br>
+        <label for='symptom20'>Symptom 20:</label>
+        <input type='text' id='symptom20' name='symptom20'><br><br>
+        <label for='symptom21'>Symptom 21:</label>
+        <input type='text' id='symptom21' name='symptom21'><br><br>
+        <label for='symptom22'>Symptom 22:</label>
+        <input type='text' id='symptom22' name='symptom22'><br><br>
+        <label for='symptom23'>Symptom 23:</label>
+        <input type='text' id='symptom23' name='symptom23'><br><br>
+        <label for='symptom24'>Symptom 24:</label>
+        <input type='text' id='symptom24' name='symptom24'><br><br>
+        <label for='symptom25'>Symptom 25:</label>
+        <input type='text' id='symptom25' name='symptom25'><br><br>
+        <label for='symptom26'>Symptom 26:</label>
+        <input type='text' id='symptom26' name='symptom26'><br><br>
+        <label for='symptom27'>Symptom 27:</label>
+        <input type='text' id='symptom27' name='symptom27'><br><br>
+        <label for='symptom28'>Symptom 28:</label>
+        <input type='text' id='symptom28' name='symptom28'><br><br>
+        <label for='symptom29'>Symptom 29:</label>
+        <input type='text' id='symptom29' name='symptom29'><br><br>
+        <label for='symptom30'>Symptom 30:</label>
+        <input type='text' id='symptom30' name='symptom30'><br><br>
+        <label for='symptom31'>Symptom 31:</label>
+        <input type='text' id='symptom31' name='symptom31'><br><br>
+        <label for='symptom32'>Symptom 32:</label>
+        <input type='text' id='symptom32' name='symptom32'><br><br>
+        <label for='symptom33'>Symptom 33:</label>
+        <input type='text' id='symptom33' name='symptom33'><br><br>
+        <label for='symptom34'>Symptom 34:</label>
+        <input type='text' id='symptom34' name='symptom34'><br><br>
+        <label for='symptom35'>Symptom 35:</label>
+        <input type='text' id='symptom35' name='symptom35'><br><br>
+        <label for='symptom36'>Symptom 36:</label>
+        <input type='text' id='symptom36' name='symptom36'><br><br>
+        <label for='symptom37'>Symptom 37:</label>
+        <input type='text' id='symptom37' name='symptom37'><br><br>
+        <label for='symptom38'>Symptom 38:</label>
+        <input type='text' id='symptom38' name='symptom38'><br><br>
+        <label for='symptom39'>Symptom 39:</label>
+        <input type='text' id='symptom39' name='symptom39'><br><br>
+        <label for='symptom40'>Symptom 40:</label>
+        <input type='text' id='symptom40' name='symptom40'><br><br>
+        <label for='symptom41'>Symptom 41:</label>
+        <input type='text' id='symptom41' name='symptom41'><br><br>
+        <label for='symptom42'>Symptom 42:</label>
+        <input type='text' id='symptom42' name='symptom42'><br><br>
+        <label for='symptom43'>Symptom 43:</label>
+        <input type='text' id='symptom43' name='symptom43'><br><br>
+        <label for='symptom44'>Symptom 44:</label>
+        <input type='text' id='symptom44' name='symptom44'><br><br>
+        <label for='symptom45'>Symptom 45:</label>
+        <input type='text' id='symptom45' name='symptom45'><br><br>
+        <label for='symptom46'>Symptom 46:</label>
+        <input type='text' id='symptom46' name='symptom46'><br><br>
+        <label for='symptom47'>Symptom 47:</label>
+        <input type='text' id='symptom47' name='symptom47'><br><br>
+        <label for='symptom48'>Symptom 48:</label>
+        <input type='text' id='symptom48' name='symptom48'><br><br>
+        <label for='symptom49'>Symptom 49:</label>
+        <input type='text' id='symptom49' name='symptom49'><br><br>
+        <label for='symptom50'>Symptom 50:</label>
+        <input type='text' id='symptom50' name='symptom50'><br><br>
+        <label for='symptom51'>Symptom 51:</label>
+        <input type='text' id='symptom51' name='symptom51'><br><br>
+        <label for='symptom52'>Symptom 52:</label>
+        <input type='text' id='symptom52' name='symptom52'><br><br>
+        <label for='symptom53'>Symptom 53:</label>
+        <input type='text' id='symptom53' name='symptom53'><br><br>
+        <label for='symptom54'>Symptom 54:</label>
+        <input type='text' id='symptom54' name='symptom54'><br><br>
+        <label for='symptom55'>Symptom 55:</label>
+        <input type='text' id='symptom55' name='symptom55'><br><br>
+        <label for='symptom56'>Symptom 56:</label>
+        <input type='text' id='symptom56' name='symptom56'><br><br>
+        <label for='symptom57'>Symptom 57:</label>
+        <input type='text' id='symptom57' name='symptom57'><br><br>
+        <label for='symptom58'>Symptom 58:</label>
+        <input type='text' id='symptom58' name='symptom58'><br><br>
+        <label for='symptom59'>Symptom 59:</label>
+        <input type='text' id='symptom59' name='symptom59'><br><br>
+        <label for='symptom60'>Symptom 60:</label>
+        <input type='text' id='symptom60' name='symptom60'><br><br>
+        <label for='symptom61'>Symptom 61:</label>
+        <input type='text' id='symptom61' name='symptom61'><br><br>
+        <label for='symptom62'>Symptom 62:</label>
+        <input type='text' id='symptom62' name='symptom62'><br><br>
+        <label for='symptom63'>Symptom 63:</label>
+        <input type='text' id='symptom63' name='symptom63'><br><br>
+        <label for='symptom64'>Symptom 64:</label>
+        <input type='text' id='symptom64' name='symptom64'><br><br>
+        <label for='symptom65'>Symptom 65:</label>
+        <input type='text' id='symptom65' name='symptom65'><br><br>
+        <label for='symptom66'>Symptom 66:</label>
+        <input type='text' id='symptom66' name='symptom66'><br><br>
+        <label for='symptom67'>Symptom 67:</label>
+        <input type='text' id='symptom67' name='symptom67'><br><br>
+        <label for='symptom68'>Symptom 68:</label>
+        <input type='text' id='symptom68' name='symptom68'><br><br>
+        <label for='symptom69'>Symptom 69:</label>
+        <input type='text' id='symptom69' name='symptom69'><br><br>
+        <label for='symptom70'>Symptom 70:</label>
+        <input type='text' id='symptom70' name='symptom70'><br><br>
+        <label for='symptom71'>Symptom 71:</label>
+        <input type='text' id='symptom71' name='symptom71'><br><br>
+        <label for='symptom72'>Symptom 72:</label>
+        <input type='text' id='symptom72' name='symptom72'><br><br>
+        <label for='symptom73'>Symptom 73:</label>
+        <input type='text' id='symptom73' name='symptom73'><br><br>
+        <label for='symptom74'>Symptom 74:</label>
+        <input type='text' id='symptom74' name='symptom74'><br><br>
+        <label for='symptom75'>Symptom 75:</label>
+        <input type='text' id='symptom75' name='symptom75'><br><br>
+        <label for='symptom76'>Symptom 76:</label>
+        <input type='text' id='symptom76' name='symptom76'><br><br>
+        <label for='symptom77'>Symptom 77:</label>
+        <input type='text' id='symptom77' name='symptom77'><br><br>
+        <label for='symptom78'>Symptom 78:</label>
+        <input type='text' id='symptom78' name='symptom78'><br><br>
+        <label for='symptom79'>Symptom 79:</label>
+        <input type='text' id='symptom79' name='symptom79'><br><br>
+        <label for='symptom80'>Symptom 80:</label>
+        <input type='text' id='symptom80' name='symptom80'><br><br>
+        <label for='symptom81'>Symptom 81:</label>
+        <input type='text' id='symptom81' name='symptom81'><br><br>
+        <label for='symptom82'>Symptom 82:</label>
+        <input type='text' id='symptom82' name='symptom82'><br><br>
+        <label for='symptom83'>Symptom 83:</label>
+        <input type='text' id='symptom83' name='symptom83'><br><br>
+        <label for='symptom84'>Symptom 84:</label>
+        <input type='text' id='symptom84' name='symptom84'><br><br>
+        <label for='symptom85'>Symptom 85:</label>
+        <input type='text' id='symptom85' name='symptom85'><br><br>
+        <label for='symptom86'>Symptom 86:</label>
+        <input type='text' id='symptom86' name='symptom86'><br><br>
+        <label for='symptom87'>Symptom 87:</label>
+        <input type='text' id='symptom87' name='symptom87'><br><br>
+        <label for='symptom88'>Symptom 88:</label>
+        <input type='text' id='symptom88' name='symptom88'><br><br>
+        <label for='symptom89'>Symptom 89:</label>
+        <input type='text' id='symptom89' name='symptom89'><br><br>
+        <label for='symptom90'>Symptom 90:</label>
+        <input type='text' id='symptom90' name='symptom90'><br><br>
+        <label for='symptom91'>Symptom 91:</label>
+        <input type='text' id='symptom91' name='symptom91'><br><br>
+        <label for='symptom92'>Symptom 92:</label>
+        <input type='text' id='symptom92' name='symptom92'><br><br>
+        <label for='symptom93'>Symptom 93:</label>
+        <input type='text' id='symptom93' name='symptom93'><br><br>
+        <label for='symptom94'>Symptom 94:</label>
+        <input type='text' id='symptom94' name='symptom94'><br><br>
+        <label for='symptom95'>Symptom 95:</label>
+        <input type='text' id='symptom95' name='symptom95'><br><br>
+        <label for='symptom96'>Symptom 96:</label>
+        <input type='text' id='symptom96' name='symptom96'><br><br>
+        <label for='symptom97'>Symptom 97:</label>
+        <input type='text' id='symptom97' name='symptom97'><br><br>
+        <label for='symptom98'>Symptom 98:</label>
+        <input type='text' id='symptom98' name='symptom98'><br><br>
+        <label for='symptom99'>Symptom 99:</label>
+        <input type='text' id='symptom99' name='symptom99'><br><br>
+        <label for='symptom100'>Symptom 100:</label>
+        <input type='text' id='symptom100' name='symptom100'><br><br>
+        <label for='symptom101'>Symptom 101:</label>
+        <input type='text' id='symptom101' name='symptom101'><br><br>
+        <label for='symptom102'>Symptom 102:</label>
+        <input type='text' id='symptom102' name='symptom102'><br><br>
+        <label for='symptom103'>Symptom 103:</label>
+        <input type='text' id='symptom103' name='symptom103'><br><br>
+        <label for='symptom104'>Symptom 104:</label>
+        <input type='text' id='symptom104' name='symptom104'><br><br>
+        <label for='symptom105'>Symptom 105:</label>
+        <input type='text' id='symptom105' name='symptom105'><br><br>
+        <label for='symptom106'>Symptom 106:</label>
+        <input type='text' id='symptom106' name='symptom106'><br><br>
+        <label for='symptom107'>Symptom 107:</label>
+        <input type='text' id='symptom107' name='symptom107'><br><br>
+        <label for='symptom108'>Symptom 108:</label>
+        <input type='text' id='symptom108' name='symptom108'><br><br>
+        <label for='symptom109'>Symptom 109:</label>
+        <input type='text' id='symptom109' name='symptom109'><br><br>
+        <label for='symptom110'>Symptom 110:</label>
+        <input type='text' id='symptom110' name='symptom110'><br><br>
+        <label for='symptom111'>Symptom 111:</label>
+        <input type='text' id='symptom111' name='symptom111'><br><br>
+        <label for='symptom112'>Symptom 112:</label>
+        <input type='text' id='symptom112' name='symptom112'><br><br>
+        <label for='symptom113'>Symptom 113:</label>
+        <input type='text' id='symptom113' name='symptom113'><br><br>
+        <label for='symptom114'>Symptom 114:</label>
+        <input type='text' id='symptom114' name='symptom114'><br><br>
+        <label for='symptom115'>Symptom 115:</label>
+        <input type='text' id='symptom115' name='symptom115'><br><br>
+        <label for='symptom116'>Symptom 116:</label>
+        <input type='text' id='symptom116' name='symptom116'><br><br>
+        <label for='symptom117'>Symptom 117:</label>
+        <input type='text' id='symptom117' name='symptom117'><br><br>
+        <label for='symptom118'>Symptom 118:</label>
+        <input type='text' id='symptom118' name='symptom118'><br><br>
+        <label for='symptom119'>Symptom 119:</label>
+        <input type='text' id='symptom119' name='symptom119'><br><br>
+        <label for='symptom120'>Symptom 120:</label>
+        <input type='text' id='symptom120' name='symptom120'><br><br>
+        <label for='symptom121'>Symptom 121:</label>
+        <input type='text' id='symptom121' name='symptom121'><br><br>
+        <label for='symptom122'>Symptom 122:</label>
+        <input type='text' id='symptom122' name='symptom122'><br><br>
+        <label for='symptom123'>Symptom 123:</label>
+        <input type='text' id='symptom123' name='symptom123'><br><br>
+        <label for='symptom124'>Symptom 124:</label>
+        <input type='text' id='symptom124' name='symptom124'><br><br>
+        <label for='symptom125'>Symptom 125:</label>
+        <input type='text' id='symptom125' name='symptom125'><br><br>
+        <label for='symptom126'>Symptom 126:</label>
+        <input type='text' id='symptom126' name='symptom126'><br><br>
+        <label for='symptom127'>Symptom 127:</label>
+        <input type='text' id='symptom127' name='symptom127'><br><br>
+        <label for='symptom128'>Symptom 128:</label>
+        <input type='text' id='symptom128' name='symptom128'><br><br>
+        <label for='symptom129'>Symptom 129:</label>
+        <input type='text' id='symptom129' name='symptom129'><br><br>
+        <label for='symptom130'>Symptom 130:</label>
+        <input type='text' id='symptom130' name='symptom130'><br><br>
+        <label for='symptom131'>Symptom 131:</label>
+        <input type='text' id='symptom131' name='symptom131'><br><br>
+        <label for='symptom132'>Symptom 132:</label>
+        <input type='text' id='symptom132' name='symptom132'><br><br>
+
+        <!-- Add more input fields for each symptom as needed -->
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

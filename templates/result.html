@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202001/MIT-Diagnostic-Performance_0.jpg?itok=3PhpCCep'); /* Replace with your image URL */
+            background-size: cover;
+            align-items: center;
+            color: rgb(4, 4, 4);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.7); /* Translucent background */
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        a {
+            color: #4CAF50; /* Green */
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #45a049;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>The predicted disease is: <strong>{{ prediction }}</strong></p>
+    <a href="/">Try again</a>
+</body>
+</html>
